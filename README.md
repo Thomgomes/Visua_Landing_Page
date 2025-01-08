@@ -26,4 +26,4 @@ Para rodar este projeto localmente, siga os passos abaixo:
 ### 1. Clone o repositório
 
 ```bash
-git clone 
+git clone https://github.com/Thomgomes/Visua_Landing_Page
