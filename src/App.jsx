@@ -1,3 +1,4 @@
+import Desing from "./components/desing";
 import Hero from "./components/hero";
 import Link from "./components/links";
 
@@ -6,9 +7,11 @@ function App() {
     // <div className="mx-base_mobile lg:mx-base_desktop">
     <>
       {/* section inicial */}
-      <Hero />
+      <section className="bg-svg-hero bg-no-repeat bg-contain bg-left-top">
+        <Hero />
+      </section>
       {/* section sobre nós */}
-      <section className="bg-svg-about2 bg-no-repeat bg-cover bg-center ">
+      <section className="bg-svg-about2 bg-no-repeat bg-cover bg-center py-section_separator_mobile md:py-section_separator_desktop">
         <div className="mx-base_mobile lg:mx-base_desktop flex flex-col text-center p">
           <div>
             <h1 className="text-6xl font-extrabold">Sobre Nós</h1>
@@ -29,18 +32,22 @@ function App() {
             </p>
           </div>
           <div className="pt-mid_desktop pb-section_separator_mobile lg:pb-section_separator_desktop">
-            <a className="px-5 py-1 bg-black text-2xl font-bold rounded-2xl"
-            href="https://remarkable-blancmange-895ad4.netlify.app" target="_blank" rel="noopener noreferrer">
+            <a
+              className="px-5 py-1 bg-black text-2xl font-bold rounded-2xl"
+              href="https://remarkable-blancmange-895ad4.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Conheça o Projeto Inicial
             </a>
           </div>
         </div>
       </section>
+
       {/* secrion Desing */}
-      <section className="h-screen w-screen bg-svg-desing bg-no-repeat bg-cover bg-center">
-        Desing
+      <section className="h-screen w-screen bg-svg-desing bg-no-repeat bg-cover bg-center pb-section_separator_mobile md:pb-section_separator_desktop">
+        <Desing/>
       </section>
-      {/* <section className="h-screen w-screen bg-svg-desing bg-no-repeat bg-cover bg-center">Desing</section> */}
 
       {/* section links        */}
       <section className="bg-svg-end bg-no-repeat bg-contain bg-right-bottom">
@@ -65,7 +72,6 @@ function App() {
               img="/github.svg"
               alt="Github"
             />
-            
           </nav>
         </div>
       </section>

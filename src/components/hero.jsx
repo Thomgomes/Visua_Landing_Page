@@ -3,16 +3,15 @@ import Text_Box from "./text_box";
 
 const Hero = () => {
   return (
-    <section className="bg-svg-hero bg-no-repeat bg-contain bg-left-top">
       <div className="mx-base_mobile lg:mx-base_desktop ">
         <Header />
         <div className="mx-mid_mobile lg:mx-mid_desktop">
           <div className="mx-mid_mobile lg:mx-mid_desktop">
             <h1 className="text-6xl font-extrabold">Visua</h1>
-            <p className="text-sm text-gray ">
+            <h2 className="text-sm text-gray ">
               Descubra os recursos incríveis que tornam o mundo mais simples
               para todos!
-            </p>
+            </h2>
           </div>
           <div className="flex flex-col md:flex-row gap-8 md:gap-3 justify-center items-center py-hero_space_mobile lg:py-hero_space_desktop">
             <Text_Box
@@ -26,7 +25,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
   );
 };
 
