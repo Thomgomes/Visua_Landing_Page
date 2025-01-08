@@ -43,6 +43,10 @@ export default {
       height: {
         img_desktop: "80px",
         img_mobile: "50px",
+
+        img_desing_desktop: "420px",
+        img_desing_mobile: "360px",
+
       },
       backgroundImage: {
         "svg-hero": "url('/background/Bg_hero.svg')",

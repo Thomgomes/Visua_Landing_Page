@@ -1,3 +1,4 @@
+import Footer from "./components/footer";
 import Desing from "./components/desing";
 import Hero from "./components/hero";
 import Link from "./components/links";
@@ -45,7 +46,7 @@ function App() {
       </section>
 
       {/* secrion Desing */}
-      <section className="h-screen w-screen bg-svg-desing bg-no-repeat bg-cover bg-center pb-section_separator_mobile md:pb-section_separator_desktop">
+      <section className="bg-svg-desing bg-no-repeat bg-cover bg-center pb-section_separator_mobile md:pb-section_separator_desktop">
         <Desing/>
       </section>
 
@@ -73,6 +74,7 @@ function App() {
               alt="Github"
             />
           </nav>
+          <Footer/>
         </div>
       </section>
     </>
