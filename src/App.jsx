@@ -6,7 +6,7 @@ function App() {
     <>
       {/* section inicial */}
       <Hero/>
-      <section className="h-screen w-screen bg-svg-about2 bg-no-repeat bg-cover lg:bg-contain bg-center ">
+      <section className="h-screen w-screen bg-svg-about2 bg-no-repeat bg-cover bg-center ">
         sobre nós
       </section>
       <section className="h-screen w-screen bg-svg-desing bg-no-repeat bg-cover bg-center">

@@ -41,11 +41,11 @@ export default {
         img_mobile: "50px",
       },
       backgroundImage: {
-        "svg-hero": "url('./src/assets/Bg_hero.svg')",
-        "svg-about": "url('./src/assets/Bg_circle.svg')",
-        "svg-about2": "url('./src/assets/Mask.svg')",
-        "svg-desing": "url('./src/assets/Bg_m.svg')",
-        "svg-end": "url('./src/assets/Bg_end.svg')",
+        "svg-hero": "url('./background/Bg_hero.svg')",
+        "svg-about": "url('./background/Bg_circle.svg')",
+        "svg-about2": "url('./background/Mask.svg')",
+        "svg-desing": "url('./background/Bg_m.svg')",
+        "svg-end": "url('./background/Bg_end.svg')",
       }
     },
   },
