@@ -42,7 +42,7 @@ function App() {
       {/* <section className="h-screen w-screen bg-svg-desing bg-no-repeat bg-cover bg-center">Desing</section> */}
 
       {/* section links        */}
-      <section className="bg-svg-end bg-no-repeat bg-contain bg-bottom">
+      <section className="bg-svg-end bg-no-repeat bg-contain bg-right-bottom">
         <div className="mx-base_mobile lg:mx-base_desktop flex flex-col text-center p">
           <div>
             <h1 className="text-6xl font-extrabold">Acesse o meu Portfólio</h1>

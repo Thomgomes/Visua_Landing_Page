@@ -3,7 +3,7 @@ import Text_Box from "./text_box";
 
 const Hero = () => {
   return (
-    <section className="bg-svg-hero bg-no-repeat bg-contain bg-top">
+    <section className="bg-svg-hero bg-no-repeat bg-contain bg-left-top">
       <div className="mx-base_mobile lg:mx-base_desktop ">
         <Header />
         <div className="mx-mid_mobile lg:mx-mid_desktop">
