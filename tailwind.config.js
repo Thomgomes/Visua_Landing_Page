@@ -23,6 +23,8 @@ export default {
 
         section_separator_desktop: "100px",
         section_separator_mobile: "50px",
+
+        about_and_final: "160px",
       },
       margin: {
         base_desktop: "72px",
@@ -35,6 +37,8 @@ export default {
 
         section_separator_desktop: "100px",
         section_separator_mobile: "50px",
+
+        about_and_final: "160px",
       },
       height: {
         img_desktop: "80px",

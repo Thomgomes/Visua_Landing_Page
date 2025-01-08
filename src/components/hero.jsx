@@ -8,7 +8,7 @@ const Hero = () => {
         <Header />
         <div className="mx-mid_mobile lg:mx-mid_desktop">
           <div className="mx-mid_mobile lg:mx-mid_desktop">
-            <h1 className="text-6xl text-in font-extrabold">Visua</h1>
+            <h1 className="text-6xl font-extrabold">Visua</h1>
             <p className="text-sm text-gray ">
               Descubra os recursos incríveis que tornam o mundo mais simples
               para todos!
