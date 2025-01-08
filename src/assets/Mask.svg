@@ -1,0 +1,131 @@
+<svg width="1440" height="834" viewBox="0 0 1440 834" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <mask id="mask0_3_392" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-164" y="0" width="1778" height="834">
+    <path d="M1614 0H-164V834H1614V0Z" fill="white"/>
+  </mask>
+  <g mask="url(#mask0_3_392)">
+    <path class="floating-1" d="M1614 0H-164V834H1614V0Z" fill="#0E2A47"/>
+    <path class="floating-2" d="M822 634.195L911.701 777.774L1030.74 669.579L941.037 526L822 634.195Z" fill="#1C538E" fill-opacity="0.4"/>
+    <path class="floating-3" d="M785.879 442.666C836.824 444.281 890.011 425.723 916.342 373.094C943.409 318.998 936.234 250.48 909.064 196.459C882.936 144.51 836.25 112.895 785.879 113.705C736.648 114.498 692.681 148.766 668.258 200.333C644.037 251.475 642.105 314.355 666.776 365.183C691.201 415.506 737.551 441.134 785.879 442.666Z" fill="#1C538E" fill-opacity="0.4"/>
+    <path class="floating-4" d="M20.2097 33.9135L-139.772 -52L-211 140.965L-51.0186 226.878L20.2097 33.9135Z" fill="#1C538E" fill-opacity="0.4"/>
+    <path class="floating-5" d="M278.16 5L168 61.4007L214.76 194.272L324.92 137.872L278.16 5Z" fill="#1C538E" fill-opacity="0.4"/>
+    <path class="floating-6" d="M0.283478 686.583C69.7996 686.194 123.931 619.765 155.515 545.07C184.098 477.474 181.915 398.095 149.885 332.788C118.459 268.713 61.906 232.784 0.283478 228.561C-69.0511 223.808 -146.351 238.141 -181.986 310.038C-218.254 383.21 -193.099 473.198 -157.462 546.82C-122.203 619.659 -69.6438 686.975 0.283478 686.583Z" fill="#1C538E" fill-opacity="0.4"/>
+    <path class="floating-7" d="M1234.09 556.355C1283.14 552.014 1311.28 495.743 1335.57 444.163C1359.43 393.498 1385.6 335.261 1362.22 284.27C1338.38 232.279 1283.35 223.29 1234.09 222.857C1183.99 222.416 1130.09 231.393 1102.69 281.989C1073.08 336.649 1075.99 408.206 1103.07 464.742C1130.13 521.253 1180.13 561.132 1234.09 556.355Z" fill="#1C538E" fill-opacity="0.4"/>
+    <path class="floating-8" d="M136.567 644L134 821.41L281.085 824.506L283.652 647.097L136.567 644Z" fill="#1C538E" fill-opacity="0.4"/>
+    <path class="floating-9" d="M1258.46 219.667L1345.67 107.081L1237.32 74.4961L1258.46 219.667Z" fill="#1C538E" fill-opacity="0.4"/>
+    <path class="floating-10" d="M-51.0877 309.915L95.6806 443.314L59.5101 132.887L-51.0877 309.915Z" fill="#1C538E" fill-opacity="0.4"/>
+    <path class="floating-11" d="M1348 754.614L1513.49 894.386L1629.37 694.771L1463.88 555L1348 754.614Z" fill="#1C538E" fill-opacity="0.4"/>
+  </g>
+
+  <style>
+    /* Animations */
+    @keyframes float1 {
+      0% { transform: translate(0, 0); }
+      50% { transform: translate(-10px, 5px); }
+      100% { transform: translate(0, 0); }
+    }
+
+    .floating-1 {
+      animation: float1 6s ease-in-out infinite;
+    }
+
+    @keyframes float2 {
+      0% { transform: translate(0, 0); }
+      50% { transform: translate(5px, -5px); }
+      100% { transform: translate(0, 0); }
+    }
+
+    .floating-2 {
+      animation: float2 5s ease-in-out infinite;
+    }
+
+    @keyframes float3 {
+      0% { transform: translate(0, 0); }
+      50% { transform: translate(-7px, 7px); }
+      100% { transform: translate(0, 0); }
+    }
+
+    .floating-3 {
+      animation: float3 4.5s ease-in-out infinite;
+    }
+
+    @keyframes float4 {
+      0% { transform: translate(0, 0); }
+      50% { transform: translate(-5px, 10px); }
+      100% { transform: translate(0, 0); }
+    }
+
+    .floating-4 {
+      animation: float4 5.5s ease-in-out infinite;
+    }
+
+    @keyframes float5 {
+      0% { transform: translate(0, 0); }
+      50% { transform: translate(5px, -10px); }
+      100% { transform: translate(0, 0); }
+    }
+
+    .floating-5 {
+      animation: float5 6s ease-in-out infinite;
+    }
+
+    @keyframes float6 {
+      0% { transform: translate(0, 0); }
+      50% { transform: translate(-12px, 3px); }
+      100% { transform: translate(0, 0); }
+    }
+
+    .floating-6 {
+      animation: float6 5s ease-in-out infinite;
+    }
+
+    @keyframes float7 {
+      0% { transform: translate(0, 0); }
+      50% { transform: translate(10px, -7px); }
+      100% { transform: translate(0, 0); }
+    }
+
+    .floating-7 {
+      animation: float7 5s ease-in-out infinite;
+    }
+
+    @keyframes float8 {
+      0% { transform: translate(0, 0); }
+      50% { transform: translate(-6px, 8px); }
+      100% { transform: translate(0, 0); }
+    }
+
+    .floating-8 {
+      animation: float8 5s ease-in-out infinite;
+    }
+
+    @keyframes float9 {
+      0% { transform: translate(0, 0); }
+      50% { transform: translate(-3px, -6px); }
+      100% { transform: translate(0, 0); }
+    }
+
+    .floating-9 {
+      animation: float9 5.5s ease-in-out infinite;
+    }
+
+    @keyframes float10 {
+      0% { transform: translate(0, 0); }
+      50% { transform: translate(8px, -4px); }
+      100% { transform: translate(0, 0); }
+    }
+
+    .floating-10 {
+      animation: float10 6s ease-in-out infinite;
+    }
+
+    @keyframes float11 {
+      0% { transform: translate(0, 0); }
+      50% { transform: translate(-5px, 10px); }
+      100% { transform: translate(0, 0); }
+    }
+
+    .floating-11 {
+      animation: float11 4s ease-in-out infinite;
+    }
+  </style>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="1440" height="560" preserveAspectRatio="none" viewBox="0 0 1440 560">
+  <g mask="url(#SvgjsMask1004)" fill="none">
+    <rect width="1440" height="560" x="0" y="0" fill="#0e2a47"></rect>
+    <path class="path-1" d="M764.44 611.83C888.52 600.17 943.87 354.76 1182.11 339.66 1420.35 324.56 1485.11 153.68 1599.78 149.26" stroke="rgba(51,121,194,0.58)" stroke-width="2"></path>
+    <path class="path-2" d="M97.48 644.09C271.29 589.56 304.89 103.32 570.07 89.47 835.25 75.62 806.37 159.47 1042.66 159.47 1278.95 159.47 1395.81 89.66 1515.25 89.47" stroke="rgba(51,121,194,0.58)" stroke-width="2"></path>
+    <path class="path-3" d="M676.24 591.7C808.73 577.55 893.36 289.74 1115.18 289.4 1337 289.06 1436.16 459.89 1554.12 463" stroke="rgba(51,121,194,0.58)" stroke-width="2"></path>
+    <path class="path-4" d="M476.56 632.77C636.25 613.71 729.25 257.7 997.82 255.76 1266.39 253.82 1385.49 372.63 1519.08 373.36" stroke="rgba(51,121,194,0.58)" stroke-width="2"></path>
+    <path class="path-5" d="M741.51 657.47C894.11 614.34 946.55 188.87 1166.82 186.86 1387.09 184.85 1470.22 419.5 1592.13 427.66" stroke="rgba(51,121,194,0.58)" stroke-width="2"></path>
+  </g>
+
+  <defs>
+    <mask id="SvgjsMask1004">
+      <rect width="1440" height="560" fill="#ffffff"></rect>
+    </mask>
+  </defs>
+
+  <style>
+    /* Animação de desenho das linhas */
+    @keyframes drawPath {
+      0% {
+        stroke-dasharray: 0, 9999;
+      }
+      100% {
+        stroke-dasharray: 9999, 0;
+      }
+    }
+
+    /* Aplique a animação de desenho nas paths */
+    .path-1, .path-2, .path-3, .path-4, .path-5 {
+      animation: drawPath 4s ease-in-out forwards;
+      stroke-dasharray: 0, 9999;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* Animação de oscilação para as linhas */
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+      100% { transform: translateY(0); }
+    }
+
+    /* Aplicando a flutuação com tempos de animação diferentes para as paths */
+    .path-1 {
+      animation: drawPath 4s ease-in-out forwards, float 6s ease-in-out infinite;
+    }
+
+    .path-2 {
+      animation: drawPath 4.5s ease-in-out forwards, float 5.5s ease-in-out infinite;
+    }
+
+    .path-3 {
+      animation: drawPath 5s ease-in-out forwards, float 5s ease-in-out infinite;
+    }
+
+    .path-4 {
+      animation: drawPath 5.5s ease-in-out forwards, float 7s ease-in-out infinite;
+    }
+
+    .path-5 {
+      animation: drawPath 6s ease-in-out forwards, float 4s ease-in-out infinite;
+    }
+  </style>
+</svg>

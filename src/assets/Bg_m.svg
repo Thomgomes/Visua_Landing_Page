@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="1440" height="560" preserveAspectRatio="none" viewBox="0 0 1440 560">
+  <g mask="url(#SvgjsMask1252)" fill="none">
+    <rect width="1440" height="560" x="0" y="0" fill="#0e2a47"></rect>
+    <path class="path-1" d="M -2728.8724766601526,134 C -2440.87,202.6 -1864.87,455.8 -1288.8724766601529,477 C -712.87,498.2 -394.65,239 151.12752333984713,240 C 696.9,241 1182.23,433.6 1440,482" stroke="rgba(51, 121, 194, 0.58)" stroke-width="2"></path>
+    <path class="path-2" d="M -1953.0310583102432,463 C -1665.03,415.2 -1089.03,228.8 -513.0310583102432,224 C 62.97,219.2 536.36,470.6 926.9689416897568,439 C 1317.58,407.4 1337.39,140.6 1440,66" stroke="rgba(51, 121, 194, 0.58)" stroke-width="2"></path>
+    <path class="path-3" d="M -1229.9370506995417,105 C -941.94,146.4 -365.94,294.6 210.06294930045823,312 C 786.06,329.4 1404.08,184.6 1650.0629493004583,192 C 1896.05,199.4 1482.01,317.6 1440,349" stroke="rgba(51, 121, 194, 0.58)" stroke-width="2"></path>
+    <path class="path-4" d="M -2313.498664186952,209 C -2025.5,240.8 -1449.5,402 -873.498664186952,368 C -297.5,334 103.8,37.4 566.501335813048,39 C 1029.2,40.6 1265.3,308.6 1440,376" stroke="rgba(51, 121, 194, 0.58)" stroke-width="2"></path>
+    <path class="path-5" d="M -1174.975814333686,171 C -886.98,218 -310.98,412.4 265.024185666314,406 C 841.02,399.6 1470.03,133.8 1705.024185666314,139 C 1940.02,144.2 1493,373.4 1440,432" stroke="rgba(51, 121, 194, 0.58)" stroke-width="2"></path>
+  </g>
+
+  <defs>
+    <mask id="SvgjsMask1252">
+      <rect width="1440" height="560" fill="#ffffff"></rect>
+    </mask>
+  </defs>
+
+  <style>
+    /* Animação de desenho */
+    @keyframes drawPath {
+      0% {
+        stroke-dasharray: 0, 9999;
+      }
+      100% {
+        stroke-dasharray: 9999, 0;
+      }
+    }
+
+    .path-1, .path-2, .path-3, .path-4, .path-5 {
+      animation: drawPath 4s ease-in-out forwards;
+      stroke-dasharray: 0, 9999;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* Animação de flutuação */
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+      100% { transform: translateY(0); }
+    }
+
+    .path-1 {
+      animation: drawPath 4s ease-in-out forwards, float 6s ease-in-out infinite;
+    }
+
+    .path-2 {
+      animation: drawPath 4.5s ease-in-out forwards, float 5s ease-in-out infinite;
+    }
+
+    .path-3 {
+      animation: drawPath 5s ease-in-out forwards, float 7s ease-in-out infinite;
+    }
+
+    .path-4 {
+      animation: drawPath 5.5s ease-in-out forwards, float 6.5s ease-in-out infinite;
+    }
+
+    .path-5 {
+      animation: drawPath 6s ease-in-out forwards, float 4s ease-in-out infinite;
+    }
+  </style>
+</svg>
