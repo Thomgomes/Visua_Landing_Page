@@ -1,3 +1,36 @@
+## **Instalação**
+
+Para rodar este projeto localmente, siga os passos abaixo:
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/Thomgomes/Visua_Landing_Page
+```
+### 2. Navegue até o diretório do projeto
+
+```bash 
+cd Visua_Landing_Page
+```
+
+### 3. Instale as dependências
+```bash
+npm install
+```
+ou
+```bash
+yarn install
+```
+### 4. Inicie o servidor de desenvolvimento
+```bash
+npm start
+```
+ou
+```bash
+yarn start
+```
+
+
 # **Visua**
 
 **Visua** é um **projeto institucional**, desenvolvida por estudantes da Uninassau Paulista-PE, com o tema de "**crie um projeto que ajude alguma deficiencia**" escolhemos deficiencia visual, então agora estou fazendo uma **landing page** para proporcionar uma experiência visual impactante e otimizada para os usuários. O objetivo deste projeto é criar um design atraente e funcional do zero com base no projeto original, utilizando tecnologias modernas de desing e de front-end.
@@ -19,11 +52,6 @@ Este projeto foi construído com as seguintes tecnologias:
 - **Design Responsivo**: A página é completamente responsiva, adaptando-se a diferentes dispositivos como desktops, tablets e celulares.
 - **Novo Design Visual**: Um design clean e moderno, proporcionando uma experiência de navegação agradável e intuitiva.
 
-## **Instalação**
+#### **Link Projeto Original**
 
-Para rodar este projeto localmente, siga os passos abaixo:
-
-### 1. Clone o repositório
-
-```bash
-git clone https://github.com/Thomgomes/Visua_Landing_Page
+- [Visua](https://remarkable-blancmange-895ad4.netlify.app)
