@@ -15,7 +15,7 @@ const Header = () => {
             </div>
             <div>
               <Link
-                link="https://visuaweb.vercel.app/"
+                link="https://remarkable-blancmange-895ad4.netlify.app"
                 img="/logo_visua.png"
                 alt="Visua logo"
               />

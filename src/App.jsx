@@ -29,9 +29,10 @@ function App() {
             </p>
           </div>
           <div className="pt-mid_desktop pb-section_separator_mobile lg:pb-section_separator_desktop">
-            <button className="px-5 py-1 bg-black text-2xl font-bold rounded-2xl">
+            <a className="px-5 py-1 bg-black text-2xl font-bold rounded-2xl"
+            href="https://remarkable-blancmange-895ad4.netlify.app" target="_blank" rel="noopener noreferrer">
               Conheça o Projeto Inicial
-            </button>
+            </a>
           </div>
         </div>
       </section>
