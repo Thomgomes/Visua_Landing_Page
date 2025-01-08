@@ -7,7 +7,7 @@ import SampleArrow from "./sampleArrow";
 import Data_Mobile from "../data/Desing_Mobile";
 import Data_Desktop from "../data/Desing_Desktop";
 
-const Slider_Carrosel = ({ title, data }) => {
+const Slider_Carrossel = ({ title, data }) => {
   const [isDragging, setIsDragging] = useState(false);
 
   const isDesktop = (desktop, mobile) => {
@@ -16,13 +16,12 @@ const Slider_Carrosel = ({ title, data }) => {
 
 
   const getData = () => {
-    // Certifique-se de que a propriedade `data` é "desktop" ou "mobile"
     if (data === "desktop") {
       return Data_Desktop;
     } else if (data === "mobile") {
       return Data_Mobile;
     } else {
-      return []; // Caso contrário, retornamos um array vazio
+      return [];
     }
   };
 
@@ -112,4 +111,4 @@ const Slider_Carrosel = ({ title, data }) => {
   );
 };
 
-export default Slider_Carrosel;
+export default Slider_Carrossel;
